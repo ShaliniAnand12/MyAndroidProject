@@ -9,8 +9,10 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 public static final String MY_TAG = "the_custom_message";
     @Override
+	//Now activity wil be start.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+		//It fetch the control on the screen.
         setContentView(R.layout.activity_main);
         Log.i(MY_TAG,"onCreate");
     }
